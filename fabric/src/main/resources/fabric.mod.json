@@ -18,9 +18,6 @@
   "entrypoints": {
     "main": [
       "${main_entrypoint}"
-    ],
-    "client": [
-      "${client_entrypoint}"
     ]
   },
   "mixins": [
@@ -30,8 +27,8 @@
     "fabricloader": ">=${fabric_loader_version}",
     "minecraft": "~${minecraft_version}",
     "java": ">=21",
-    "architectury": ">=${architectury_api_version}",
     "fabric-api": "*",
-    "amber": ">=${amber_version}"
+    "bonded": ">=1.0.2-beta.3",
+    "basicweapons": ">=1.2.10.1"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    "basicweapons:wooden_dagger",
+    "basicweapons:wooden_glaive",
+    "basicweapons:wooden_quarterstaff",
+    "basicweapons:wooden_club",
+    "basicweapons:wooden_spear",
+    "basicweapons:wooden_hammer",
+
+    "basicweapons:stone_dagger",
+    "basicweapons:stone_glaive",
+    "basicweapons:stone_quarterstaff",
+    "basicweapons:stone_club",
+    "basicweapons:stone_spear",
+    "basicweapons:stone_hammer",
+
+    "basicweapons:iron_dagger",
+    "basicweapons:iron_glaive",
+    "basicweapons:iron_quarterstaff",
+    "basicweapons:iron_club",
+    "basicweapons:iron_spear",
+    "basicweapons:iron_hammer",
+
+    "basicweapons:golden_dagger",
+    "basicweapons:golden_glaive",
+    "basicweapons:golden_quarterstaff",
+    "basicweapons:golden_club",
+    "basicweapons:golden_spear",
+    "basicweapons:golden_hammer",
+
+    "basicweapons:diamond_dagger",
+    "basicweapons:diamond_glaive",
+    "basicweapons:diamond_quarterstaff",
+    "basicweapons:diamond_club",
+    "basicweapons:diamond_spear",
+    "basicweapons:diamond_hammer",
+
+    "basicweapons:netherite_dagger",
+    "basicweapons:netherite_glaive",
+    "basicweapons:netherite_quarterstaff",
+    "basicweapons:netherite_club",
+    "basicweapons:netherite_spear",
+    "basicweapons:netherite_hammer"
+  ]
+}

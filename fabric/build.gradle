@@ -5,5 +5,7 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:$fabric_api_version"
 
     modImplementation "com.iamkaf.amber:amber-fabric:$rootProject.amber_version"
+    modImplementation "com.iamkaf.bonded:bonded-fabric:$rootProject.bonded_version"
     modRuntimeOnly("dev.emi:emi-fabric:${rootProject.emi_version}")
+    modImplementation "maven.modrinth:basic-weapons:1.2.10.1+1.21"
 }

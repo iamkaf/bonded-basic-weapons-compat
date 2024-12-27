@@ -6,8 +6,8 @@ import com.seacroak.basicweapons.registry.MainRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.TieredItem;
 
 import java.util.Optional;
 
@@ -20,7 +20,7 @@ public final class BondedBasicWeaponsCompatFabric implements ModInitializer {
                     .findFirst();
             if (upgrade.isPresent()) {
                 Item to = upgrade.get();
-                API.addUpgrade(item, to, ((TieredItem) to).getTier().getRepairIngredient());
+                API.addUpgrade(item, to, ItemTags.STONE_TOOL_MATERIALS);
             }
         });
         MainRegistry.stoneWeapons.forEach(item -> {
@@ -30,7 +30,7 @@ public final class BondedBasicWeaponsCompatFabric implements ModInitializer {
                     .findFirst();
             if (upgrade.isPresent()) {
                 Item to = upgrade.get();
-                API.addUpgrade(item, to, ((TieredItem) to).getTier().getRepairIngredient());
+                API.addUpgrade(item, to, ItemTags.IRON_TOOL_MATERIALS);
             }
         });
         MainRegistry.ironWeapons.forEach(item -> {
@@ -40,7 +40,7 @@ public final class BondedBasicWeaponsCompatFabric implements ModInitializer {
                     .findFirst();
             if (upgrade.isPresent()) {
                 Item to = upgrade.get();
-                API.addUpgrade(item, to, ((TieredItem) to).getTier().getRepairIngredient());
+                API.addUpgrade(item, to, ItemTags.DIAMOND_TOOL_MATERIALS);
             }
         });
         MainRegistry.goldenWeapons.forEach(item -> {

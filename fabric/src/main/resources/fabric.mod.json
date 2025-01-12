@@ -28,7 +28,7 @@
     "minecraft": ["1.21","1.21.1"],
     "java": ">=21",
     "fabric-api": "*",
-    "bonded": ">=1.0.2-beta.3",
-    "basicweapons": ">=1.2.10.1"
+    "bonded": ">=1.2.0+1.21.1",
+    "basicweapons": ">=2.0.0"
   }
 }
